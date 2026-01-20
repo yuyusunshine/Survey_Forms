@@ -1,0 +1,9 @@
+POST https://nnsurveyforms-bfdzgtcbc8gcfna8.eastasia-01.azurewebsites.net/api/submissions
+Content-Type: application/json
+
+{
+  "company_name": "Test Company",
+  "contact_name": "John Doe",
+   "phone": "13322112345",
+   "email": "123@example.com"
+}

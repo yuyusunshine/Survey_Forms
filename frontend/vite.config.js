@@ -7,11 +7,13 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/api': {
-        target: 'http://localhost:3000',
+        //target: 'http://localhost:3000',
+        target: 'https://nnsurveyforms-bfdzgtcbc8gcfna8.eastasia-01.azurewebsites.net',
         changeOrigin: true
       },
       '/uploads': {
-        target: 'http://localhost:3000',
+        //target: 'http://localhost:3000',
+        target: 'https://nnsurveyforms-bfdzgtcbc8gcfna8.eastasia-01.azurewebsites.net',
         changeOrigin: true
       }
     }
